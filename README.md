@@ -1,2 +1,3 @@
-# pi-ads-2019-2
-Repositório modelo de ADS p/ 2019-2 (Pesquisa e Inovação I) 
+# Projeto modelo para os projetos de PI de 1º semestre
+
+Público alvo: Alunos do 1º semestre em 2019/2.
