@@ -26,7 +26,7 @@ function iniciar_escuta() {
         // este bloco trata a verificação de Arduino conectado (inicio)
 
         var entradas_seriais_arduino = entradas_seriais.filter(entrada_serial => {
-            return entrada_serial.vendorId == 2341 && entrada_serial.productId == 8037;
+            return entrada_serial.vendorId == 2341 && entrada_serial.productId == 43;
         });
 
         if (entradas_seriais_arduino.length != 1) {
@@ -47,7 +47,7 @@ function iniciar_escuta() {
         // o baudRate deve ser igual ao valor em
         // Serial.begin(xxx) do Arduino (ex: 9600 ou 115200)
         var arduino = new porta_serial(arduinoCom, {
-            baudRate: 115200
+            baudRate: 9600
         });
 
         var parser = new leitura_recebida();
